@@ -1,0 +1,7 @@
+命令：
+
+初始化仓库
+$git init
+配置仓库信息
+$git config --global user.name "taoge"   //用户名
+$git config --global user.email "11111@qq.com"  //邮箱
