@@ -5,3 +5,18 @@ $git init
 配置仓库信息
 $git config --global user.name "taoge"   //用户名
 $git config --global user.email "11111@qq.com"  //邮箱
+
+
+添加代码
+$git add ./文件名  //单个文件提交
+$git add ./       //当前目录下所有文件提交
+
+$git commit --all -m "一些说明"   //备份代码说明
+
+
+查看文件状态
+$git status
+
+查看日志
+$git log  //查看当前日志
+$git log --oneline  //查看详细日志
